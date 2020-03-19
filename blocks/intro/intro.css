@@ -1,0 +1,30 @@
+.intro__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 59px;
+    margin: 80px 48px 0;
+}
+
+.intro__content-row {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 48px auto 0 48px;
+    width: 692px;
+    height: 160px;
+}
+
+.intro__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 24px auto 0 48px;
+    width: 383px;
+    min-height: 93px;
+}
