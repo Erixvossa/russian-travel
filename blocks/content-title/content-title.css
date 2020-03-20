@@ -1,0 +1,16 @@
+.content-title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    text-align: center;
+    margin: 0;
+}
+
+.content-title_place_video {
+    line-height: 78px;
+}
+
+.content-title_place_comments {
+    line-height: 65px;
+    }
