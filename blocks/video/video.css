@@ -22,6 +22,7 @@
 
 .video__item_kamchatka {
     background-image: url(../../images/video_item_Image1.png);
+
 }
 
 .video__item_observatory {
@@ -34,9 +35,8 @@
 }
 
 .video__icon-play {
-    position: relative;
-    top: 30px;
-    left: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .video__duration {
@@ -46,9 +46,9 @@
     font-size: 12px;
     line-height: 13px;
     letter-spacing: 0.3em;
-    position: relative;
-    top: 54px;
-    left: 30px;
+    margin-top: 54px;
+    margin-left: 30px;
+    margin-bottom: 0;
     color: #FFFFFF;
 }
 
@@ -63,7 +63,19 @@
     font-size: 36px;
     line-height: 39px;
     color: #FFFFFF;
-    position: relative;
-    top: 12px;
-    left: 30px;
+    margin-top: 12px;
+    margin-left: 30px;
+    margin-bottom: 0;
+    width: 322px;
+}
+
+.video__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 18px;
 }
