@@ -10,6 +10,7 @@
     height: 288px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .video__item {
