@@ -1,0 +1,28 @@
+.comment {
+    min-width: 296px;
+    max-width: 382px;
+}
+
+.comment__image {
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+}
+
+.comment__quote {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 40px auto 0;
+}
+
+.comment__author {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 16px auto 0;
+}

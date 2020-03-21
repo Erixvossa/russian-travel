@@ -1,4 +1,12 @@
 .comments {
     display: flex;
     margin: 102px 48px 0;
+    flex-direction: column;
+}
+
+.comments__container{
+    margin: 72px 0 0;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
 }

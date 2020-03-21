@@ -1,0 +1,36 @@
+.cover {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/cover__Image.png);
+    width: 1045px;
+    height: 562px;
+    background-size: cover;
+    margin: 102px auto 0;
+    position: relative;
+}
+
+.cover__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 211px auto auto;
+}
+
+.cover__subtitle {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin: auto 316px 48px;
+}
+
+.cover:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/cover__Image.png);
+    background-size: cover;
+    cursor: pointer;
+}

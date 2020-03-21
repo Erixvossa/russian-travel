@@ -15,24 +15,44 @@
 .video__item {
     width: 456px;
     height: 288px;
-    background-color: #000000;
-    opacity: 1;
+    /*background-color: #000000;
+    opacity: 1;*/
     flex-direction: column;
 }
 
 .video__item_kamchatka {
     background-image: url(../../images/video_item_Image1.png);
-
 }
 
 .video__item_observatory {
     background-image: url(../../images/video_item_Image2.png);
 }
 
-.video__item:hover {
-    opacity: 0.5;
+.video__item_kamchatka.video__item:hover {
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(../../images/video_item_Image1.png);
     cursor: pointer;
 }
+
+.video__item_observatory.video__item:hover {
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    /* bottom, image */
+    url(../../images/video_item_Image2.png);
+    cursor: pointer;
+}
+
+
 
 .video__icon-play {
     margin-top: 30px;
