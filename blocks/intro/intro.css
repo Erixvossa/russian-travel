@@ -1,5 +1,5 @@
 .intro {
-    width: 928px;
+    max-width: 928px;
     margin: 80px auto 0;
 }
 
@@ -20,8 +20,8 @@
     font-size: 14px;
     line-height: 24px;
     margin: 48px auto 0 0;
-    width: 692px;
-    height: 160px;
+    max-width: 692px;
+    /*height: 160px;*/
 }
 
 .intro__text {
@@ -35,4 +35,25 @@
     min-height: 93px;
     list-style: none;
     padding-left: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__content-row {
+        max-width: calc(100vw - 3rem);
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro {
+        margin: 4rem auto 0;
+    }
+    .intro__content-row {
+        font-size: 16px;
+        line-height: 27px;
+        max-width: calc(100vw - 2rem);
+    }
+    .intro__text {
+        font-size: 12px;
+        line-height: 19px;
+    }
 }

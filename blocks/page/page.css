@@ -7,9 +7,15 @@
     overflow: hidden;
 }
 
+@media screen and (min-width: 1440px) {
+    .page {
+        padding: 0 8rem 0;
+    }
+}
+
 @media screen and (min-width: 1280px) {
     .page {
-        padding: 0 6rem 0;
+       
     }
 }
 
