@@ -91,6 +91,15 @@
 }
 
 @media screen and (max-width: 768px) {
+    .place {
+        grid-gap: 28px 24px;
+        width: 720px;
+        grid-template-columns: 340px calc(((100vw - 340px) - 28px) - 48px);
+        grid-template-rows: max-content auto;
+    }
+    .place__image {
+        width: 340px;
+    }
     .place__title {
         font-size: 42px;
         line-height: 46px;
@@ -109,8 +118,8 @@
         "photo"
         "main";
         grid-gap: 24px;
-        grid-template-columns: 100vw;
-        grid-template-rows: min-content;
+        grid-template-columns: calc(100vw - 32px);
+        /*grid-template-rows: min-content;*/
     }
     .place__title {
         font-size: 32px;
@@ -118,7 +127,7 @@
     }
     .place__image {
         width: 100vw;
-        margin: -16px;
+        margin-left: -16px;
     }
     .place__website {
         display: none;
