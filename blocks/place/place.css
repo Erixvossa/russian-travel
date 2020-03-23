@@ -1,6 +1,10 @@
+.places {
+    margin: 102px auto 0;
+}
+
 .place {
     display: grid;
-    margin: 102px auto 0;
+    margin: 72px auto 0;
     grid-gap: 40px 32px;
     width: 928px;
     grid-template-columns: 440px 456px;
@@ -82,7 +86,7 @@
 
 @media screen and (min-width: 1280px) {
     .place {
-        margin: 92px auto 0;
+        /*margin: 92px auto 0;*/
     }
 }
 
@@ -99,12 +103,14 @@
 
 @media screen and (max-width: 425px) {
     .place {
+        
         grid-template-areas: 
         "title"
         "photo"
         "main";
-        grid-gap: 40px 32px;
-        grid-template-columns: 100vw 456px;
+        grid-gap: 24px;
+        grid-template-columns: 100vw;
+        grid-template-rows: min-content;
     }
     .place__title {
         font-size: 32px;
@@ -112,7 +118,10 @@
     }
     .place__image {
         width: 100vw;
-        margin: -24px;
+        margin: -16px;
+    }
+    .place__website {
+        display: none;
     }
 }
 
