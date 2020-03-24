@@ -39,7 +39,7 @@
     background-position: center;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1025px) {
     .cover {
         width: 100%;
         margin: 102px auto 0;
@@ -68,7 +68,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cover {
         width: calc(100% + 32px);
         height: 272px;

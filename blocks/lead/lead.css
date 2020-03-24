@@ -16,7 +16,7 @@
 .lead__image-position {
     width: 95%;
     position: relative;
-    top: 22%;
+    align-self: center;
     height: fit-content;
 }
 
