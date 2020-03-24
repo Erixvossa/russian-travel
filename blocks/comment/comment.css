@@ -1,6 +1,8 @@
 .comment {
     min-width: 296px;
     max-width: 382px;
+    display: flex;
+    flex-direction: column;
 }
 
 .comment__image {
@@ -15,7 +17,7 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    margin: 40px auto 0;
+    margin: 42px auto 0;
 }
 
 .comment__author {
@@ -24,5 +26,28 @@
     font-weight: 900;
     font-size: 14px;
     line-height: 24px;
-    margin: 16px auto 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .comment {
+        margin-top: 48px;
+    }
+    .comment__image {
+        width: 97px;
+        height: 97px;
+        margin: auto;
+    }
+    .comment__quote {
+        font-size: 16px;
+        line-height: 23px;
+        order: 2;
+        margin-top: 24px;
+    }
+    .comment__author {
+        line-height: 22px;
+        text-align: center;
+        margin-top: 16px;
+        order: 1;
+    }
 }

@@ -45,6 +45,9 @@
     /* bottom, image */
     url(../../images/video_item_Image1.png);
     cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
 }
 
 .video__item_observatory.video__item:hover {
@@ -57,6 +60,9 @@
     /* bottom, image */
     url(../../images/video_item_Image2.png);
     cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
 }
 
 .video__icon-play {

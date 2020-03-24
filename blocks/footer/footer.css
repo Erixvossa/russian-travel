@@ -37,3 +37,38 @@
     line-height: 20px;
     text-align: right;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin-top: 102px;
+        margin-bottom: 24px;
+    }
+    .footer__link {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        justify-content: space-between;
+        height: 312px;
+    }
+    .footer-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: calc(100% - 48px);
+    }
+    .footer__link {
+        font-size: 24px;
+        line-height: 41px;
+    }
+    .footer__copyrights {
+        text-align: left;
+    }
+}
