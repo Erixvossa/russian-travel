@@ -3,6 +3,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
+    line-height: 78px;
     text-align: center;
     margin: 0 auto 0;
 }
@@ -14,3 +15,28 @@
 .content-title_place_comments {
     line-height: 65px;
     }
+
+@media screen and (min-width: 1280px) {
+    .content-title_place_comments {
+        line-height: 78px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .content-title {
+        font-size: 42px;
+    }
+    .content-title_place_video {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-title {
+        font-size: 32px;
+    }
+    .content-title_place_video {
+        line-height: 35px;
+    }
+}
