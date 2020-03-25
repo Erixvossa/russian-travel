@@ -1,0 +1,29 @@
+.lead__caption {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-top: 16px;
+    margin-left: calc(((100vw - 96px) - 928px) / 2);
+}
+
+@media screen and (min-width: 1280px) {
+    .lead__caption {
+        margin-left: calc(((100vw - 96px) - 984px) / 2);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .lead__caption {
+        margin-left: calc(((100vw - 16rem) - 984px) / 2);
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .lead__caption {
+        margin-left: auto;
+    }
+}

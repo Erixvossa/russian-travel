@@ -1,0 +1,6 @@
+.header__langs {
+    width: max-content;
+    align-content: flex-end;
+    display: flex;
+}
+

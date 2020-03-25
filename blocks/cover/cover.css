@@ -1,3 +1,6 @@
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
 .cover {
     display: flex;
     flex-direction: column;
@@ -9,27 +12,6 @@
     margin: 102px auto 0;
     position: relative;
     margin-left: calc((1024px - 1045px) - 48px);
-}
-
-.cover__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 78px;
-    text-align: center;
-    margin: 211px auto auto;
-    max-width: 50vw;
-}
-
-.cover__subtitle {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    margin: auto 316px 48px;
 }
 
 .cover:hover {
@@ -44,11 +26,7 @@
         width: 100%;
         margin: 102px auto 0;
     }
-    .cover__title {
-        max-width: 100vw;
-    }
 }
-
 
 @media screen and (max-width: 1023px) {
     .cover {
@@ -56,15 +34,6 @@
         height: 500px;
         margin: 102px auto 0;
         margin-left: -24px;
-    }
-    .cover__title {
-        max-width: 70vw;
-        font-size: 72px;
-        line-height: 78px;
-        margin-top: 165px;
-    }
-    .cover__subtitle {
-        margin: 45px auto auto;
     }
 }
 
@@ -74,17 +43,6 @@
         height: 272px;
         margin-left: -16px;
     }
-    .cover__title {
-        max-width: 60vw;
-        margin-top: 104px;
-        font-size: 32px;
-        line-height: 35px;
-    }
-    .cover__subtitle {
-        font-size: 14px;
-        line-height: 17px;
-        margin: 7px auto auto;
-    }
 }
 
 @media screen and (max-width: 320px) {
@@ -92,12 +50,5 @@
         width: calc(100% + 16px);
         height: 216;
         margin-left: -8px;
-    }
-    .cover__title {
-        max-width: 75vw;
-        margin-top: 64px;
-    }
-    .cover__subtitle {
-        margin: 7px auto auto;
     }
 }

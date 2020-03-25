@@ -1,6 +1,11 @@
-.places {
-    margin: 102px auto 0;
-}
+@import url(./__title/place__title.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__url/place__url.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__paragraph-text/place__paragraph-text.css);
+@import url(./__paragraph-text/_2nd/place__paragraph-text_2nd.css);
 
 .place {
     display: grid;
@@ -25,64 +30,6 @@
 }
 */
 
-.place__title {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 72px;
-    line-height: 65px;
-    grid-area: title;
-    margin: 0;
-}
-
-.place__website {
-    grid-area: url;
-    align-self: flex-end;
-}
-
-.place__url-heading {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.2em;
-    color: #AAAAAA;
-    margin: 0;
-}
-
-.place__url {
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration-line: underline;
-    color: #FFFFFF;
-    margin-top: 16px;
-}
-
-.place__image {
-    grid-area: photo;
-}
-
-.place__paragraph {
-    grid-area: main;
-}
-
-.place__paragraph-text {
-    font-family: 'Inter', Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0;
-}
-
-
-.place__paragraph-text_2nd {
-    margin-top: 24px;
-}
 
 @media screen and (min-width: 1280px) {
     .place {
@@ -90,9 +37,6 @@
         grid-gap: 60px 40px;
         grid-template-columns: 460px 484px;
         width: 984px;
-    }
-    .place__image {
-            width: 460px;
     }
 }
 
@@ -102,17 +46,6 @@
         width: 720px;
         grid-template-columns: 340px calc((100% - 340px) - 28px);
         grid-template-rows: max-content auto;
-    }
-    .place__image {
-        width: 340px;
-    }
-    .place__title {
-        font-size: 42px;
-        line-height: 46px;
-    }
-    .place__paragraph-text {
-        font-size: 16px;
-        line-height: 27px;
     }
 }
 
@@ -125,17 +58,6 @@
         grid-gap: 24px;
         grid-template-columns: calc(100vw - 32px);
         /*grid-template-rows: min-content;*/
-    }
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
-    }
-    .place__image {
-        width: 100vw;
-        margin-left: -16px;
-    }
-    .place__website {
-        display: none;
     }
 }
 
