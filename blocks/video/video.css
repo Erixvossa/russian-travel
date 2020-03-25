@@ -124,7 +124,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .video__container {
         width: calc(100vw - 48px);
         height: max-content;

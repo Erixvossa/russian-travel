@@ -51,6 +51,7 @@
     letter-spacing: 0.15em;
     text-transform: uppercase;
     margin-top: 16px;
+    margin-left: calc(((100vw - 96px) - 928px) / 2);
 }
 
 
@@ -74,18 +75,21 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead__image {
-        width: 768px;
+        width: calc(100% + 48px);
         height: 420px;
         margin-left: -24px;
     }
     .lead__subtitle {
         max-width: 720px;
     }
+    .lead__caption {
+        margin-left: auto;
+    }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .lead__image {
         width: 100vw;
         height: 211px;

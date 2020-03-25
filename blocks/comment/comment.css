@@ -1,6 +1,6 @@
 .comment {
     min-width: 296px;
-    max-width: 382px;
+    max-width: calc((100% / 3) - 18px);
     display: flex;
     flex-direction: column;
 }
@@ -29,9 +29,10 @@
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .comment {
         margin-top: 48px;
+        max-width: 50vw;
     }
     .comment__image {
         width: 97px;
@@ -49,5 +50,11 @@
         text-align: center;
         margin-top: 16px;
         order: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .comment {
+        max-width: 100%;
     }
 }
