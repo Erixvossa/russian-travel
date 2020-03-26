@@ -12,6 +12,8 @@
     margin: 102px auto 0;
     position: relative;
     margin-left: calc((1024px - 1045px) - 48px);
+    text-decoration-line: none;
+    color: #FFFFFF;
 }
 
 .cover:hover {

@@ -1,15 +1,24 @@
 .content-title_place_comments {
     line-height: 65px;
+    max-width: 90%;
 }
 
 @media screen and (min-width: 1280px) {
     .content-title_place_comments {
         line-height: 78px;
+        max-width: 75%;
     }
 }
 
 @media screen and (max-width: 425px) {
     .content-title_place_comments {
         line-height: 35px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .content-title_place_comments {
+        max-width: 75%;
     }
 }

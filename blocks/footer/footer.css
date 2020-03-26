@@ -1,3 +1,5 @@
+@import url(./__links/footer__links.css);
+@import url(./__ul-reset/footer__ul-reset.css);
 @import url(./__link/footer__link.css);
 @import url(./__copyrights/footer__copyrights.css);
 
@@ -7,6 +9,10 @@
     margin-top: 160px;
     margin-bottom: 48px;
     justify-content: space-between;
+     max-width: 1184px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
