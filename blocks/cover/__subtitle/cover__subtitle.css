@@ -19,6 +19,13 @@
         font-size: 14px;
         line-height: 17px;
         margin: 7px auto auto;
+        max-width: 50vw;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__subtitle {
+        max-width: calc(100vw - 32px);
     }
 }
 

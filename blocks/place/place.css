@@ -18,18 +18,6 @@
     "photo main";
 }
 
-/*
-.place__left-column {
-    width: 440px;
-    margin-right: 32px;
-}
-
-.place__right-column {
-    width: 456px;
-}
-*/
-
-
 @media screen and (min-width: 1280px) {
     .place {
         margin: 92px auto 0;

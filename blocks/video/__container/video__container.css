@@ -1,6 +1,6 @@
 .video__container {
     width: 928px;
-    height: 288px;
+    max-height: 288px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .video__container {
         flex-direction: column;
     }

@@ -73,7 +73,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .video__item {
         width: calc(100vw - 32px);
         margin-left: -8px;

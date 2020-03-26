@@ -9,7 +9,7 @@
     margin-top: 160px;
     margin-bottom: 48px;
     justify-content: space-between;
-     max-width: 1184px;
+    max-width: 1184px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -29,6 +29,5 @@
         margin-top: 64px;
         margin-bottom: 24px;
         justify-content: space-between;
-        height: 312px;
     }
 }
