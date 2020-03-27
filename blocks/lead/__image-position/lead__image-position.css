@@ -1,6 +1,6 @@
 .lead__image-position {
-    width: 95%;
-    position: relative;
+    width: 87%;
+    position: absolute;
     align-self: center;
     height: fit-content;
 }
