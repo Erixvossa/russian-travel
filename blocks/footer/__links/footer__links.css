@@ -3,6 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
     width: min-content;
+    padding-inline-start: initial;
+    margin-block-start: initial;
+    margin-block-end: initial;
 }
 
 @media screen and (max-width: 767px) {
@@ -10,6 +13,5 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: calc(100% - 48px);
     }
 }

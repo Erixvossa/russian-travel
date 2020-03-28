@@ -1,5 +1,7 @@
 @import url(./__container/video__container.css);
 @import url(./__item/video__item.css);
+@import url(./__item/_place/video__item_place_kamchatka.css);
+@import url(./__item/_place/video__item_place_observatory.css);
 @import url(./__icon-play/video__icon-play.css);
 @import url(./__duration/video__duration.css);
 @import url(./__container-link/video__container-link.css);

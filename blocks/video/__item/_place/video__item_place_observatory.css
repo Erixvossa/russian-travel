@@ -1,0 +1,31 @@
+.video__item_place_observatory {
+    background-image: url(../../../images/video_item_Image2.png);
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../../../../images/video_item_Image2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+.video__item_place_observatory:hover {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(../../../../images/video_item_Image2.png);
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 767px) {
+    .video__item_place_observatory {
+        margin-top: 8px;
+    }
+}

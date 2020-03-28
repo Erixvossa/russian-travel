@@ -1,6 +1,5 @@
 .video__container {
     width: 928px;
-    max-height: 288px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,14 +9,12 @@
 @media screen and (min-width: 1280px) {
     .video__container {
         width: 1194px;
-        height: max-content;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .video__container {
         width: calc(100vw - 48px);
-        height: max-content;
         margin: 56px auto 0;
     }
 }

@@ -5,10 +5,11 @@
     font-size: 18px;
     line-height: 30px;
     margin: 0;
+    margin-top: 24px;
 }
 
-.place__paragraph-text:last-of-type {
-    margin-top: 24px;
+.place__paragraph-text:first-of-type {
+    margin-top: 0;
 }
 
 

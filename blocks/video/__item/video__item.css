@@ -8,57 +8,6 @@
     flex-direction: column;
 }
 
-.video__item_kamchatka {
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../../../images/video_item_Image1.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-}
-
-.video__item_observatory {
-    background-image: url(../../../images/video_item_Image2.png);
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.5), 
-      rgba(0, 0, 0, 0.5)
-    ),
-    url(../../../images/video_item_Image2.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-}
-
-.video__item_kamchatka.video__item:hover {
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
-    ),
-    url(../../../images/video_item_Image1.png);
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-}
-
-.video__item_observatory.video__item:hover {
-    background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.8), 
-      rgba(0, 0, 0, 0.8)
-    ),
-    url(../../../images/video_item_Image2.png);
-    cursor: pointer;
-    background-size: cover;
-    background-position: center;
-    border-radius: 4px;
-}
-
 @media screen and (min-width: 1280px) {
     .video__item {
         width: 583px;
@@ -77,12 +26,18 @@
     .video__item {
         width: calc(100vw - 32px);
         margin-left: -8px;
-        height: 200px;
-    }
-    .video__item_observatory {
-        margin-top: 8px;
+        height: calc((100vw - 32px) / 2);
     }
 }
+
+@media screen and (max-width: 425px) {
+    .video__item {
+        width: calc(100vw - 32px);
+        margin-left: -8px;
+        height: 200px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .video__item {

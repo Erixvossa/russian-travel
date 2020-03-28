@@ -1,0 +1,7 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration-line: none;
+    color: #FFFFFF;
+    height: 100%;
+}
